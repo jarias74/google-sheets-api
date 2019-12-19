@@ -33,7 +33,8 @@ Command: `npm install serverless -g`
 Video tutorial: https://serverless.com/learn/tutorial/installing-serverless-framework-via-npm/
 
 3. Run the following command in your terminal to open your project folder  
-`git clone git@github.com:pdaryani/lambda-google-sheets.git && cd google-sheets-api && open .`
+`git clone https://github.com/pdaryani/google-sheets-api.git && cd google-sheets-api && open .`  
+Note: if you don't have and don't want to install `git`, just download the zip file of this repo and open it up: https://tinyurl.com/sl29ask
 
 4. Find `serverless.yml` file in your project folder and replace example SHEET_KEY value with your own google sheet key: https://tinyurl.com/wwbkkjg
 
