@@ -1,0 +1,17 @@
+service: google-sheets-api
+
+provider:
+  name: aws
+  stage: prod
+  runtime: nodejs12.x
+  region: us-east-1
+  environment:
+    SHEET_KEY: 1Q1npTBexJfIdJ3lMg1v_0MzbiFRqP0NA-fHEasSCANI
+functions:
+  get:
+    handler: code/get/index.get
+    events: 
+      - http:
+          path: google-sheets-api/get
+          method: get
+          cors: true
